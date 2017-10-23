@@ -1,0 +1,117 @@
+/* Elemento que contiene las tres columnas del triptico*/
+.table {
+  background-color: white;
+  border: 1px solid black;
+  height: 540px;
+  position: relative;
+  width: 500px;
+}
+
+/* Caja que va en la parte superior*/
+.box-top {
+  background-color: rgb(255, 193, 7);
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+  float: left;
+  height: 40px;
+  width: 500px;
+}
+
+/* Título que contiene la caja superior*/
+.box-top p {
+  font-size: 18px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Primera columna*/
+.column1 {
+  background-color: white;
+  border-right: 1px solid black;
+  box-sizing: border-box;
+  float: left;
+  height: 470px;
+  text-align: center;
+  width: 150px;
+}
+
+/* Título de la columna 1*/
+.column1 p:first-child {
+  margin: 20px;
+  text-align: center;
+}
+
+/* Párrafo de la columna 1*/
+.column1 p {
+  margin: 10px;
+  text-align: justify;
+}
+
+/* Segunda columna*/
+.column2 {
+  background-color: white;
+  border-right: 1px solid black;
+  box-sizing: border-box;
+  float: left;
+  height: 470px;
+  text-align: center;
+  width: 205px;
+}
+
+/* Título de la columna 2*/
+.column2 p:first-child {
+  font-size: 25px;
+  margin: 40px;
+  text-align: center;
+}
+
+/* Párrafo de la columna 2*/
+.column2 p {
+  margin: 30px;
+  text-align: justify;
+}
+
+/* Tercera columna*/
+.column3 {
+  background-color: white;
+  box-sizing: border-box;
+  float: left;
+  height: 470px;
+  text-align: center;
+  width: 145px;
+}
+
+/* Título de la columna 3*/
+.column3 p:first-child {
+  margin: 20px;
+  text-align: center;
+}
+
+/* Párrafo de la columna 3*/
+.column3 p {
+  margin: 10px;
+  text-align: justify;
+}
+
+/* Estilo para ambas imágenes*/
+img {
+  height: auto;
+  margin-top: 30px;
+  width: 100%;
+}
+
+/* Caja que va en la parte inferior*/
+.box-bottom {
+  background-color: rgb(255, 193, 7);
+  border-top: 1px solid black;
+  bottom: 0;
+  height: 30px;
+  position: absolute;
+  width: 500px;
+}
+
+/* Título que va en la caja inferior*/
+.box-bottom p {
+  text-align: center;
+  margin-top: 8px;
+}
